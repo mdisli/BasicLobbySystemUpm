@@ -55,8 +55,8 @@ namespace LobbySystem.Scripts
                 // When using a ParrelSync clone, switch to a different authentication profile to force the clone
                 // to sign in as a different anonymous user account.
                 string customArgument = ClonesManager.GetArgument();
+                customArgument += Random.Range(0, 999).ToString();
                 AuthenticationService.Instance.SwitchProfile($"Clone_{customArgument}_Profile");
-                
                 Debug.Log("Clone detected, profile switched");
             }
 #endif
