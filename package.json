@@ -1,6 +1,6 @@
 {
   "name": "com.mcd.basic-lobby-system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Basic Lobby System",
   "description": "This is an example of lobby system",
   "unity": "2022.3",
