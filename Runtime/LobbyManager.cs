@@ -164,6 +164,19 @@ public static class LobbyManager
         }
     }
 
+    public static async void UpdateLobbyData(UpdateLobbyOptions opt)
+    {
+        try
+        {
+            await LobbyService.Instance.UpdateLobbyAsync(_joinedLobby.Id,opt);
+        }
+        catch (LobbyServiceException e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+
     #endregion
 
     #region Get Lobbies

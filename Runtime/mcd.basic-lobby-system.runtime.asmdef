@@ -1,6 +1,5 @@
 {
     "name": "mcd.basic-lobby-system.runtime",
-    "rootNamespace": "",
     "references": [
         "GUID:4c3f49d89436d478ea78315c03159dcc",
         "GUID:5540e30183c82e84b954c033c388e06c",
